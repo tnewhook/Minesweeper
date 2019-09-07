@@ -1,0 +1,39 @@
+#msTable td{
+  min-width: 10px;
+  min-height: 10px;
+  border:1px solid #000 ;
+}
+#msTable{
+  width:150px;
+  border:none;
+
+}
+
+#result{
+  height: 100%;
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 0%;
+  border: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#resultBox{
+  margin:auto;
+  width:40%;
+  text-align: center;
+}
+
+#resultText{
+  font-size:200px;
+}
+
+#resultResetButton{
+  position: relative;
+  margin-top:230px
+  left: 25%;
+  transform: translate(-50%, 0);
+}
